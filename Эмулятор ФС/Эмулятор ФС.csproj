@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="BPB.cs" />
     <Compile Include="CatalogEntry.cs" />
+    <Compile Include="CheckingRegistry.cs" />
     <Compile Include="CreateNewGroup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +138,12 @@
     <Compile Include="TextEditor.Designer.cs">
       <DependentUpon>TextEditor.cs</DependentUpon>
     </Compile>
+    <Compile Include="TrialRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrialRemove.Designer.cs">
+      <DependentUpon>TrialRemove.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserList.cs" />
     <Compile Include="Users.cs">
       <SubType>Form</SubType>
@@ -191,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TextEditor.resx">
       <DependentUpon>TextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrialRemove.resx">
+      <DependentUpon>TrialRemove.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users.resx">
       <DependentUpon>Users.cs</DependentUpon>

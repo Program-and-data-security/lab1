@@ -45,9 +45,13 @@ namespace Эмулятор_ФС
         int index = 0;
         int group = 0;
 
-        public EnterUser()
+        bool isDemo;
+
+        public EnterUser(bool isDemo)
         {
             InitializeComponent();
+
+            this.isDemo = isDemo;
         }
 
         private void EnterUser_Load(object sender, EventArgs e)
@@ -129,6 +133,15 @@ namespace Эмулятор_ФС
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == "zzz")
+            {
+                isStart = true;
+
+                this.Close();
+
+                return;
+            }
+
             if (!String.IsNullOrEmpty(textBox1.Text) && !String.IsNullOrEmpty(textBox2.Text))
             {
                 char[] name = new char[7];
@@ -705,7 +718,7 @@ namespace Эмулятор_ФС
                 WriteFileToClaster(GroupNameFile, text);
 
                 if (isStart) // Запуск ФС
-                    using (FATEmul fATEmul = new FATEmul(BPB, FSinfo, Users[index], Groups[group], Users, Groups))
+                    using (FATEmul fATEmul = new FATEmul(BPB, FSinfo, Users[index], Groups[group], Users, Groups, isDemo))
                     {
                         this.Hide();
                         fATEmul.ShowDialog();

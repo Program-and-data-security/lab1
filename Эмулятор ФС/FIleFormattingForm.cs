@@ -9,6 +9,7 @@ using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Эмулятор_ФС
 {
@@ -33,16 +34,29 @@ namespace Эмулятор_ФС
 
         FileStream stream;
 
-        public FIleFormattingForm()
+        public FIleFormattingForm(bool isDemo)
         {
             InitializeComponent();
+
+            if (isDemo)
+                SetFileSizes(1);
+            else
+                SetFileSizes();
+        }
+
+        private void SetFileSizes(int maxSize = 6)
+        {
+            for (int i = 1; i <= maxSize; i++)
+            {
+                fileSize.Items.Add((i * 32).ToString() + " мб.");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(comboBox1.Text) || String.IsNullOrEmpty(comboBox2.Text)) return;
+            if (String.IsNullOrEmpty(fileSize.Text) || String.IsNullOrEmpty(fatFat.Text)) return;
 
-            UInt32 size = UInt32.Parse(comboBox1.Text.Split(' ')[0]);
+            UInt32 size = UInt32.Parse(fileSize.Text.Split(' ')[0]);
 
             CreateNewFileFS(size * 512);
 

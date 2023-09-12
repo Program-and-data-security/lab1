@@ -51,7 +51,7 @@ namespace Эмулятор_ФС
 
         private UInt16 PerrmisionsFileTemp;
 
-        public FATEmul(BPB bpb, FSinfo fsinfo, UserList user, GroupList group, List<UserList> userList, List<GroupList> groupList)
+        public FATEmul(BPB bpb, FSinfo fsinfo, UserList user, GroupList group, List<UserList> userList, List<GroupList> groupList, bool isDemo)
         {
             InitializeComponent();
 
@@ -70,7 +70,7 @@ namespace Эмулятор_ФС
             UserList = userList;
             GroupList = groupList;
 
-            label3.Text = String.Join("", user.Name);
+            menuStrip1.Items[3].Text = "Пользователь: " + String.Join("", user.Name);
 
             ClasterSize = (UInt16)(BPB.SectorsByteCount * BPB.SectorsPerClaster);
             ClasterSimbolSize = (UInt16)(ClasterSize / 2);
@@ -80,6 +80,9 @@ namespace Эмулятор_ФС
             stream = new MyStream(path, FileMode.Open);
 
             ReadAllFileToTable();
+
+            if (isDemo)
+                menuStrip1.Hide();
         }
 
         private void createFileToolStripMenuItem_Click(object sender, EventArgs e)
