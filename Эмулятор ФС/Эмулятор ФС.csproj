@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6E1DD96-BF4A-43D9-A0DF-63605561DE25}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Эмулятор_ФС</RootNamespace>
+    <AssemblyName>Эмулятор ФС</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutSystem.Designer.cs">
+      <DependentUpon>AboutSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BPB.cs" />
+    <Compile Include="CatalogEntry.cs" />
+    <Compile Include="CreateNewGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewGroup.Designer.cs">
+      <DependentUpon>CreateNewGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entry.cs" />
+    <Compile Include="Groups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Groups.Designer.cs">
+      <DependentUpon>Groups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyStream.cs" />
+    <Compile Include="CreateNewUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewUsers.Designer.cs">
+      <DependentUpon>CreateNewUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterUser.Designer.cs">
+      <DependentUpon>EnterUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FATIndex.cs" />
+    <Compile Include="FATNext.cs" />
+    <Compile Include="FileClaster.cs" />
+    <Compile Include="FileEntry.cs" />
+    <Compile Include="FIleFormattingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIleFormattingForm.Designer.cs">
+      <DependentUpon>FIleFormattingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FATEmul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FATEmul.Designer.cs">
+      <DependentUpon>FATEmul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSinfo.cs" />
+    <Compile Include="GroupList.cs" />
+    <Compile Include="NameFileReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameFileReader.Designer.cs">
+      <DependentUpon>NameFileReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneGroupRewrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneGroupRewrite.Designer.cs">
+      <DependentUpon>OneGroupRewrite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneUserRewrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneUserRewrite.Designer.cs">
+      <DependentUpon>OneUserRewrite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermissionsClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="PropertiesEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertiesEntry.Designer.cs">
+      <DependentUpon>PropertiesEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartMenu.Designer.cs">
+      <DependentUpon>StartMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextEditor.Designer.cs">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserList.cs" />
+    <Compile Include="Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutSystem.resx">
+      <DependentUpon>AboutSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNewGroup.resx">
+      <DependentUpon>CreateNewGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNewUsers.resx">
+      <DependentUpon>CreateNewUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterUser.resx">
+      <DependentUpon>EnterUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIleFormattingForm.resx">
+      <DependentUpon>FIleFormattingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FATEmul.resx">
+      <DependentUpon>FATEmul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Groups.resx">
+      <DependentUpon>Groups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameFileReader.resx">
+      <DependentUpon>NameFileReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneGroupRewrite.resx">
+      <DependentUpon>OneGroupRewrite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneUserRewrite.resx">
+      <DependentUpon>OneUserRewrite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertiesEntry.resx">
+      <DependentUpon>PropertiesEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StartMenu.resx">
+      <DependentUpon>StartMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextEditor.resx">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
