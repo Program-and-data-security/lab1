@@ -28,39 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.fileSize = new System.Windows.Forms.ComboBox();
+            this.fatFat = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // fileSize
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "32 мб.",
-            "64 мб.",
-            "128 мб.",
-            "256 мб.",
-            "512 мб.",
-            "1024 мб.",
-            "2048 мб."});
-            this.comboBox1.Location = new System.Drawing.Point(177, 13);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
+            this.fileSize.BackColor = System.Drawing.Color.White;
+            this.fileSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.fileSize.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.fileSize.FormattingEnabled = true;
+            this.fileSize.Location = new System.Drawing.Point(177, 13);
+            this.fileSize.Name = "fileSize";
+            this.fileSize.Size = new System.Drawing.Size(121, 21);
+            this.fileSize.TabIndex = 0;
             // 
-            // comboBox2
+            // fatFat
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.fatFat.BackColor = System.Drawing.Color.White;
+            this.fatFat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.fatFat.FormattingEnabled = true;
+            this.fatFat.Items.AddRange(new object[] {
             "FAT",
             "FAT",
             "FAT",
@@ -70,10 +62,10 @@
             "FAT",
             "FAT",
             "FAT"});
-            this.comboBox2.Location = new System.Drawing.Point(177, 45);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 1;
+            this.fatFat.Location = new System.Drawing.Point(177, 45);
+            this.fatFat.Name = "fatFat";
+            this.fatFat.Size = new System.Drawing.Size(121, 21);
+            this.fatFat.TabIndex = 1;
             // 
             // label1
             // 
@@ -130,8 +122,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.fatFat);
+            this.Controls.Add(this.fileSize);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FIleFormattingForm";
@@ -145,8 +137,8 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox fileSize;
+        private System.Windows.Forms.ComboBox fatFat;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;

@@ -22,3 +22,28 @@ C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debu
 C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.CreateNewGroup.resources
 C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.Groups.resources
 C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.OneGroupRewrite.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\bin\Debug\Эмулятор ФС.exe.config
+D:\Projects\БПиД_lab1\Эмулятор ФС\bin\Debug\Эмулятор ФС.exe
+D:\Projects\БПиД_lab1\Эмулятор ФС\bin\Debug\Эмулятор ФС.pdb
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.AssemblyReference.cache
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.SuggestedBindingRedirects.cache
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.AboutSystem.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.CreateNewGroup.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.CreateNewUsers.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.EnterUser.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.FIleFormattingForm.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.FATEmul.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.Groups.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.NameFileReader.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.OneGroupRewrite.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.OneUserRewrite.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.PropertiesEntry.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.Properties.Resources.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.StartMenu.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.TextEditor.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.TrialRemove.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор_ФС.Users.resources
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.GenerateResource.cache
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.CoreCompileInputs.cache
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор ФС.exe
+D:\Projects\БПиД_lab1\Эмулятор ФС\obj\Debug\Эмулятор ФС.pdb
