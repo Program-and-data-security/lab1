@@ -1,0 +1,24 @@
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.AssemblyReference.cache
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.SuggestedBindingRedirects.cache
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.Properties.Resources.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.GenerateResource.cache
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор ФС.csproj.CoreCompileInputs.cache
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\bin\Debug\Эмулятор ФС.exe.config
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\bin\Debug\Эмулятор ФС.exe
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\bin\Debug\Эмулятор ФС.pdb
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор ФС.exe
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор ФС.pdb
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.NameFileReader.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.EnterUser.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.FIleFormattingForm.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.FATEmul.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.StartMenu.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.TextEditor.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.CreateNewUsers.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.PropertiesEntry.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.AboutSystem.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.Users.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.OneUserRewrite.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.CreateNewGroup.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.Groups.resources
+C:\Users\eugen\source\repos\Эмулятор ФС\Эмулятор ФС\obj\Debug\Эмулятор_ФС.OneGroupRewrite.resources
